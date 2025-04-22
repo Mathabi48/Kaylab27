@@ -1,0 +1,28 @@
+#include <iostream> 
+
+using namespace std ;
+
+int main() {
+int temp1 , temp2 , temp3;
+
+//ptompt user to enter the first three temperature readings
+cout << "Enter first temperature readings: ";
+cin >> temp1;
+
+cout<< " Enter second temperature reading (5 minutes later): ";
+cin >> temp2;
+
+//check the temperature difference between the first and second readings
+int diff = temp2 - temp1
+if (diff > 50) {
+cout << "increase the fryer heat before tking the third reading." << endl;}
+
+cout << "enter third temperature reading (5 minutes later): ";
+cin >> temp 3;
+
+//final check to see if the oil is ready for frying
+if (temp3 >= 150 && temp3 <= 190) {
+cout << "oil is not ready for frying!" << }
+
+return 0;
+}
