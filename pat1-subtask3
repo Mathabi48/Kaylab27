@@ -1,0 +1,20 @@
+int main ()
+  int choice;
+cout<<"1.Decimal to binary\n";
+cout<<"2.Binary to decimal\n";
+cout<<"choose option (1 or 2):";
+cin>>choice;
+
+if(choice==1){
+  int decimal;
+  cout<<"Enter a decimal number(non-negative):";
+  cin>>decimal;
+}else if(choice==2){
+  string binary;
+  cout<<"Enter a binary number:";
+  cin<<"Decimal:"<<binaryToDecimal(binary)<< endl;
+}else {
+  cout <<"Invalid choice."<< endl;
+}
+
+return 0;
